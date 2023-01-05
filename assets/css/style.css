@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.header_wrap{
+    width: 100%;
+    height: 500px;  
+    background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(../images/donation5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center; 
+}
+
+.header_container{
+    width: 100%;
+    text-align: center;
+}
+
+
+.header_caption{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 70px 0;
+    
+}
+
+.header_discription{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.donate_button{
+    padding: 14px;
+    background: #FF5959;
+    border: 0;
+    border-radius: 3px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;  
+}
+
+/* Main Section */
+
+.main_wrapper{
+    width: 100%;
+    height: 300px;
+    margin: 30px auto;
+}
+
+.main_wrap{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main_wrap h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+}
+
+.main_wrap p{  
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin: 20px 20px;
+}
+
+.donate_amount ul{
+    display: flex;
+    text-align: center;
+    margin:0 180px ;
+    /* margin-left: 22%;
+    line-height: 20px; */
+}
+
+.donate_amount li{
+    list-style: none;
+    margin-left: 70px;
+    
+}
+
+.donate_amount li a{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 96px;
+    text-align: center;
+    color: #707070;
+    text-decoration: none;
+    margin: 20px 0;
+    
+}
+.other_amount{
+    padding: 10px 70px;
+    border:0;
+}
+
+hr{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
+
+/* Donate Plan */
+
+
+
+.donate_plan{
+    margin-top: 130px;
+    padding: 110px 130px;
+    text-align: center;
+}
+
+.section_title{
+    
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section_decription{
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.plan_list_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.plan_list_item{
+    width: 361px;
+    height: 252px;
+    text-align: center;
+    
+    margin-right: 30px;
+    padding: 50px;
+}
+
+.plan_dec{
+    margin: 20px 0;
+}
+
+.plan_dec h3{
+    margin-bottom: 30px;
+}
+.item1{
+    background: rgba(79, 157, 166, 0.1);
+border-radius: 5px;
+}
+.item2{
+    background: rgba(255, 89, 89, 0.1);
+border-radius: 5px;
+}
+.item3{
+    background-color: #FFF4D6;
+}
+
+/* Photo Album */
+
+.photo_album{
+    margin: 50px 0;
+
+}
+
+.album_items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    
+}
+
+.photo_discription{
+    margin: 20px 83px;  
+}
+
+.photo_discription h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 20px;
+    color: #121212;
+}
+
+.photo_discription p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 20px;
+}
+
+.photo img{
+    width: 456px;
+    height: 477px;
+    border-radius: 10px;
+    object-fit:cover;
+}
+
+/* Update Section */
+
+.gets-update{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.gets-update h3{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.gets-update p{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+/* Subscribe Section */
+
+
+.subscribe{
+    width: 60%;
+    margin: 0 auto;
+    padding: 60px 80px;
+    background: #FFF4D6;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+
+.subscribe input{
+    border: 0;
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: #121212;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+}
+
+.footer h2{
+    color: #FF5959;
+    font-size: 36px;
+    margin: 30px;
+    
+}
+
+.footer small{
+    color: #FFFFFF;
+    
+}
